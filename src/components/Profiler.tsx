@@ -13,7 +13,7 @@ export default function Profiler() {
         return (
             <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-950 text-white">
                 <h1 className="text-4xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
-                    Static Profiler
+                    Tracerex
                 </h1>
                 <FileUploader />
             </main>
@@ -24,7 +24,7 @@ export default function Profiler() {
         <div className="flex flex-col h-screen bg-gray-950 text-white overflow-hidden">
             <header className="h-12 bg-gray-900 border-b border-gray-800 flex items-center px-4 justify-between shrink-0">
                 <div className="font-semibold text-lg flex items-center gap-2">
-                    <span className="text-blue-400">Profiler</span>
+                    <span className="text-blue-400">Tracerex</span>
                     <span className="text-gray-600">/</span>
                     <span className="text-gray-300 text-sm truncate max-w-md" title={fileName}>{fileName}</span>
                 </div>
